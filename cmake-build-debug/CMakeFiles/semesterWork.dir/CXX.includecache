@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/AaDS/onthewaytoproject-master/Parser.h
+utility
+-
+unordered_set
+-
+
+D:/AaDS/onthewaytoproject-master/main.cpp
+Parser.h
+D:/AaDS/onthewaytoproject-master/Parser.h
+
